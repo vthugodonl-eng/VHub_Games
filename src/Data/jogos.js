@@ -11,7 +11,8 @@ const jogos ={
     traducao: "BRA, ENG, ESP",
     descricao: "Jogo Mundo Aberto, Acao",
     sinopse: "Red Dead Redemption 2 é um jogo de ação e aventura que se passa em 1899, seguindo a história de Arthur Morgan, um membro da gangue Van der Linde, enquanto eles lutam pela sobrevivência em um mundo em declínio.",    
-    link: "https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/",
+    linksteam: "https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/",
+    linkepic: "https://store.epicgames.com/p/red-dead-redemption-2",
     caminhoImagem: reddeadredemption2Imagem
     },
 
@@ -20,7 +21,8 @@ const jogos ={
         traducao: "BRA, ENG",
         descricao: "Jogo de Acao, Historia",
         sinopse: "God of War Ragnarök acompanha Kratos e Atreus alguns anos após os acontecimentos de God of War (2018). O Fimbulwinter — o inverno que antecede o Ragnarök — já começou, e os dois precisam viajar pelos Nove Reinos em busca de respostas enquanto enfrentam criaturas míticas, deuses nórdicos e a ameaça do fim do mundo.",
-        link: "https://store.steampowered.com/app/2322010/God_of_War_Ragnark/",
+        linksteam: "https://store.steampowered.com/app/2322010/God_of_War_Ragnark/",
+        linkepic: "https://store.epicgames.com/p/god-of-war-ragnarok-3ca641",
         caminhoImagem: gowrgImagem
     },
 
@@ -29,7 +31,8 @@ const jogos ={
         traducao: "ENG, ESP",
         descricao: "Jogo Mundo Aberto, Acao",
         sinopse: "Grand Theft Auto V acompanha Michael, Franklin e Trevor, três criminosos que unem forças para realizar grandes assaltos em Los Santos enquanto enfrentam gangues, corrupção e o caos do mundo do crime.",
-        link: "https://store.steampowered.com/app/3240220/Grand_Theft_Auto_V_Enhanced/",
+        linksteam: "https://store.steampowered.com/app/3240220/Grand_Theft_Auto_V_Enhanced/",
+        linkepic: "https://store.epicgames.com/p/grand-theft-auto-v",
         caminhoImagem: gtavImagem
     },
 
@@ -38,7 +41,7 @@ const jogos ={
         traducao: "ENG",
         descricao: "Jogo Mundo Aberto, RPG",
         sinopse: "Elden Ring é um RPG de fantasia sombria onde o jogador explora as Terras Intermédias em busca dos fragmentos do Elden Ring para se tornar o novo Lorde Prístino, enfrentando criaturas poderosas e grandes desafios pelo caminho.",
-        link: "https://store.steampowered.com/app/1245620/ELDEN_RING/",
+        linksteam: "https://store.steampowered.com/app/1245620/ELDEN_RING/",
         caminhoImagem: eldenringImagem
     },
 
@@ -47,7 +50,7 @@ const jogos ={
         traducao: "ENG, BRA, ESP, JAN",
         descricao: "Jogo Competitivo Online",
         sinopse: "Counter-Strike: Global Offensive é um jogo de tiro competitivo em equipe onde terroristas e contra-terroristas se enfrentam em partidas estratégicas envolvendo bombas, resgates e intensa ação multiplayer.",
-        link: "https://store.steampowered.com/app/730/CounterStrike_2/",
+        linksteam: "https://store.steampowered.com/app/730/CounterStrike_2/",
         caminhoImagem: csgo2Imagem
     }
 }

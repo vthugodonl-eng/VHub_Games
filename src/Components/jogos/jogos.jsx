@@ -1,6 +1,7 @@
-import button from '../buttonslinks/buttonslinks'
+import buttonsteam from '../buttonslinks/STEAM/buttonsteam'
+import buttonepic from '../buttonslinks/EPIC/buttonepic'
 
-function Jogoscard({nome, traducao, descricao, sinopse, link, caminhoImagem}){
+function Jogoscard({nome, traducao, descricao, sinopse, linksteam, linkepic, caminhoImagem}){
     return(
         <div
             className='CardJogos'>
@@ -9,7 +10,13 @@ function Jogoscard({nome, traducao, descricao, sinopse, link, caminhoImagem}){
             <p> Traducao:{traducao}</p>
             <p>Descricao:{descricao}</p>
             <p>Sinopse:{sinopse}</p>
-            <a href={link}>Ver jogo</a>
+            {linksteam &&(
+                <a href={linksteam}>Ver jogo na STEAM</a>
+            )}
+            {linkepic &&(
+                <a href={linkepic}>Ver jogo na EPIC</a>
+            )}
+            
             </div>
     )
 }
