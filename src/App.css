@@ -1,0 +1,229 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  background-image:
+    linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.85)),
+    url("https://images.unsplash.com/photo-1542751371-adc38448a05e");
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  color: white;
+
+  overflow-x: hidden;
+}
+
+/* LOGO */
+
+.logo {
+  text-align: center;
+
+  font-size: 55px;
+
+  margin-top: 20px;
+
+  margin-bottom: 10px;
+
+  color: white;
+
+  text-shadow:
+    0 0 10px #7c3aed,
+    0 0 20px #7c3aed;
+
+  letter-spacing: 2px;
+}
+
+/* SUBTITULO */
+
+.contador-jogos {
+  font-size: 18px;
+
+  margin-left: 30px;
+
+  margin-top: 10px;
+
+  color: #b892ff;
+
+  text-align: left;
+}
+
+/* AREA DOS CARDS */
+
+#center {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  gap: 35px;
+
+  padding: 40px;
+}
+
+/* CARD */
+
+.CardJogos {
+  width: 320px;
+
+  background: rgba(20, 20, 20, 0.75);
+
+  backdrop-filter: blur(10px);
+
+  border-radius: 20px;
+
+  padding: 20px;
+
+  text-align: center;
+
+  transition: 0.3s;
+
+  border: 1px solid rgba(255,255,255,0.1);
+
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: space-between;
+
+}
+
+/* HOVER DO CARD */
+
+.CardJogos:hover {
+  transform: translateY(-20px) scale(1.02);
+
+  box-shadow:
+    0 0 20px rgba(124, 58, 237, 0.6),
+    0 0 40px rgba(124, 58, 237, 0.3);
+}
+
+
+/*a*/
+
+.CardJogos a{
+    margin-top: 15px;
+
+    /* width: 100%; */
+
+    padding: 6px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    background: linear-gradient(135deg, #7c3aed, #4f46e5);
+
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+
+  &:hover{
+    transform: scale(1.03);
+
+    opacity: 0.9;
+  }
+}
+
+/* IMAGEM */
+
+.CardJogos img {
+  width: 100%;
+
+  height: 420px;
+
+  object-fit: cover;
+
+  border-radius: 15px;
+
+  margin-bottom: 15px;
+
+  display: block;
+}
+
+/* TITULO DO JOGO */
+
+.CardJogos h2 {
+  min-height: 70px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+}
+
+/* TEXTOS */
+
+.CardJogos p {
+  font-size: 18px;
+
+  color: #d1d1d1;
+
+  line-height: 1.5;
+  
+  margin: 10px 0;
+
+}
+
+/* BOTAO
+
+button {
+  margin-top: 15px;
+
+  width: 100%;
+
+  padding: 12px;
+
+  border: none;
+
+  border-radius: 12px;
+
+  background: linear-gradient(135deg, #7c3aed, #4f46e5);
+
+  color: white;
+
+  font-size: 16px;
+
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+/* HOVER BOTAO */
+/* 
+button:hover {
+  transform: scale(1.03);
+
+  opacity: 0.9;
+
+  box-shadow:
+    0 0 15px rgba(124, 58, 237, 0.7);
+} */ 
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 768px) {
+
+  h1 {
+    font-size: 45px;
+  }
+
+  .CardJogos {
+    width: 90%;
+  }
+
+}
