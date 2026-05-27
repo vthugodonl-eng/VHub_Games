@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 import jogos from "./Data/jogos"
 import CardJogos from "./Components/jogos/jogos"
@@ -13,12 +13,19 @@ function App() {
     {nome: "CS:GO 2", traducao: jogos["csgo2"].traducao, descricao: jogos["csgo2"].descricao, sinopse: jogos["csgo2"].sinopse, link: jogos["csgo2"].link, caminhoImagem:jogos["csgo2"].caminhoImagem},
   ])
 
+  const[qtdJogos, setqtdJogos] = useState(0)
+  
+  useEffect(() => {
+    let jogossite = listadejogos.filter(jogos => jogos.length)
+    
+    setqtdJogos(jogossite.length)
+  },[listadejogos])
 
   return(
     
     <>
     <h1 className="logo">VHUB GAMES</h1>
-    <h2 className="contador-jogos"> 🎮 Jogos disponíveis: {listadejogos.length}</h2>
+    <h2 className="contador-jogos"> 🎮 Jogos disponíveis: {qtdJogos}</h2>
     <section id='center'>
       {
         listadejogos.map((jogos, index) => (
