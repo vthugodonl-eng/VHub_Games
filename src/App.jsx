@@ -14,11 +14,10 @@ function App() {
   ])
 
   const[qtdJogos, setqtdJogos] = useState(0)
-  
+
   useEffect(() => {
-    let jogossite = listadejogos.filter(jogos => jogos.length)
     
-    setqtdJogos(jogossite.length)
+    setqtdJogos(listadejogos.length)
   },[listadejogos])
 
   return(
