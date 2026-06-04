@@ -1,23 +1,19 @@
-import buttonsteam from '../buttonslinks/STEAM/buttonsteam'
-import buttonepic from '../buttonslinks/EPIC/buttonepic'
+import buttonsteam from '../buttonslinks/STEAM/Buttonsteam'
+import buttonepic from '../buttonslinks/EPIC/Buttonepic'
+import { Link } from 'react-router-dom';
+import './jogos.css'
 
-function Jogoscard({nome, traducao, descricao, sinopse, linksteam, linkepic, caminhoImagem}){
+function Jogoscard({nome, caminhoImagem, id}){
     return(
-        <div
-            className='CardJogos'>
-            <img src={caminhoImagem} width={200} height={200}/>
-            <h2>{nome}</h2>
-            <p> Traducao:{traducao}</p>
-            <p>Descricao:{descricao}</p>
-            <p>Sinopse:{sinopse}</p>
-            {linksteam &&(
-                <a href={linksteam}>Ver jogo na STEAM</a>
-            )}
-            {linkepic &&(
-                <a href={linkepic}>Ver jogo na EPIC</a>
-            )}
-            
-            </div>
+        <Link className="CardLink" 
+                to={`/VHub_Games/${id}`}>
+                    <div
+                        className='CardJogos'>
+                            <img src={caminhoImagem}/>
+                            <h2>{nome}</h2>            
+                    </div>
+
+        </Link>
     )
 }
 

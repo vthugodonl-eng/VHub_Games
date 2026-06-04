@@ -1,12 +1,12 @@
 import './buttonsteam.css'
 
-function buttonsteam({titulo, linksteam}){
+function Buttonsteam({linksteam}){
     return(
-        <a className="buttonsteam"
+        <a className="buttonSteam"
         href={linksteam}>
         Ver jogo na STEAM
         </a>
     )
 }
 
-export default buttonsteam;
+export default Buttonsteam;

@@ -1,12 +1,12 @@
 import './buttonepic.css'
 
-function buttonepic({titulo, linkepic}){
+function Buttonepic({linkepic}){
     return(
-        <a className="buttonepic"
+        <a className="buttonEpic"
         href={linkepic}>
         Ver Jogo na EPIC
         </a>
     )
 }
 
-export default buttonepic;
+export default Buttonepic;

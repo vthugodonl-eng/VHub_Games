@@ -56,156 +56,20 @@ body {
   text-align: center;
 
   letter-spacing: 2px;
+
+  margin-bottom: 40px;
 }
 
 /* AREA DOS CARDS */
 
 #center {
-  display: flex;
 
-  flex-wrap: wrap;
+    display: flex;
 
-  justify-content: center;
+    justify-content: center;
 
-  gap: 35px;
+    gap: 30px;
 
-  padding: 40px;
-}
-
-/* CARD */
-
-.CardJogos {
-  width: 320px;
-
-  background: rgba(20, 20, 20, 0.75);
-
-  backdrop-filter: blur(10px);
-
-  border-radius: 20px;
-
-  padding: 20px;
-
-  text-align: center;
-
-  transition: 0.3s;
-
-  border: 1px solid rgba(255,255,255,0.1);
-
-  box-shadow: 0 0 20px rgba(0,0,0,0.5);
-
-  display: flex;
-
-  flex-direction: column;
-
-  justify-content: space-between;
-  
-
-}
-
-/* HOVER DO CARD */
-
-.CardJogos:hover {
-  transform: translateY(-20px) scale(1.02);
-
-  box-shadow:
-    0 0 20px rgba(124, 58, 237, 0.6),
-    0 0 40px rgba(124, 58, 237, 0.3);
-}
-
-
-/*a*/
-
-.CardJogos a{
-    margin-top: 15px;
-
-    /* width: 100%; */
-
-    padding: 6px;
-
-    border: none;
-
-    border-radius: 12px;
-
-    background: linear-gradient(135deg, #7c3aed, #4f46e5);
-
-    color: white;
-
-    font-size: 16px;
-
-    cursor: pointer;
-
-    transition: 0.3s;
-
-    text-decoration: none;
-
-    letter-spacing: 2px;
-
-  &:hover{
-    transform: scale(1.03);
-
-    opacity: 0.9;
-  }
-}
-
-/* IMAGEM */
-
-.CardJogos img {
-  width: 100%;
-
-  height: 420px;
-
-  object-fit: cover;
-
-  border-radius: 15px;
-
-  margin-bottom: 15px;
-
-  display: block;
-}
-
-/* TITULO DO JOGO */
-
-.CardJogos h2 {
-  min-height: 70px;
-
-  color: white;
-
-  display: flex;
-
-  font-size: larger;
-
-  align-items: center;
-
-  justify-content: center;
-
-  letter-spacing: 2px;
-}
-
-/* TEXTOS */
-
-.CardJogos p {
-  font-size: 18px;
-
-  color: #d1d1d1;
-
-  line-height: 1.5;
-  
-  margin: 10px 0;
-
-  letter-spacing: 2px;
-
-}
-
-/* RESPONSIVIDADE */
-
-@media (max-width: 768px) {
-
-  h1 {
-    font-size: 45px;
-  }
-
-  .CardJogos {
-    width: 90%;
-  }
+    flex-wrap: wrap;
 
 }

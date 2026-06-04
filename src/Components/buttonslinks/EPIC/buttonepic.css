@@ -1,5 +1,14 @@
-button {
-    width: 100%;
+.containerButton{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+a {
+
+    width: 200px;
 
     padding: 14px;
 
@@ -25,8 +34,8 @@ button {
         0 0 10px rgba(109, 40, 217, 0.5);
 }
 
-button:hover {
-    transform: translateY(-3px);
+a:hover {
+    transform: translateY(-4px);
 
     background: linear-gradient(135deg, #7c3aed, #4f46e5);
 
@@ -35,6 +44,6 @@ button:hover {
         0 0 40px rgba(79, 70, 229, 0.5);
 }
 
-button:active {
+a:active {
     transform: scale(0.98);
 }

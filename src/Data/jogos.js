@@ -3,10 +3,13 @@ import gowrgImagem from "../assets/gowrg.jpg"
 import gtavImagem from "../assets/gtav.jpg"
 import eldenringImagem from "../assets/eldenring.jpg"
 import csgo2Imagem from "../assets/csgo2.jpg"
+import fortniteImagem from '../assets/FORTINITE.jpg'
+import rocketleagueImagem from '../assets/rocketleague.jpg'
+import overwatch2Imagem from '../assets/overwatch2.jpg'
 
-const jogos ={
-    
-    RedDead2:{
+const jogos =[
+    {
+    id: 1,
     nome: "RED DEAD REDEMPTION 2",
     traducao: "BRA, ENG, ESP",
     descricao: "Jogo Mundo Aberto, Acao",
@@ -16,7 +19,8 @@ const jogos ={
     caminhoImagem: reddeadredemption2Imagem
     },
 
-    GOWRG:{
+    {
+        id: 2,
         nome: "GOD OF WAR: RAGNARöK",
         traducao: "BRA, ENG",
         descricao: "Jogo de Acao, Historia",
@@ -26,7 +30,8 @@ const jogos ={
         caminhoImagem: gowrgImagem
     },
 
-    gtav:{
+    {
+        id: 3,
         nome: "GTA V",
         traducao: "ENG, ESP",
         descricao: "Jogo Mundo Aberto, Acao",
@@ -36,7 +41,8 @@ const jogos ={
         caminhoImagem: gtavImagem
     },
 
-    eldenring:{
+    {
+        id: 4,
         nome: "ELDEN RING",
         traducao: "ENG",
         descricao: "Jogo Mundo Aberto, RPG",
@@ -45,14 +51,46 @@ const jogos ={
         caminhoImagem: eldenringImagem
     },
 
-    csgo2:{
+    {
+        id: 5,
         nome: "CS:GO 2",
         traducao: "ENG, BRA, ESP, JAN",
-        descricao: "Jogo Competitivo Online",
+        descricao: "Jogo Competitivo Online, Tiro",
         sinopse: "Counter-Strike: Global Offensive é um jogo de tiro competitivo em equipe onde terroristas e contra-terroristas se enfrentam em partidas estratégicas envolvendo bombas, resgates e intensa ação multiplayer.",
         linksteam: "https://store.steampowered.com/app/730/CounterStrike_2/",
         caminhoImagem: csgo2Imagem
-    }
-}
+    },
+
+    {
+        id: 6,
+        nome: "Fortnite",
+        traducao: "ENG, BRA, ESP, JAN",
+        descricao: "Jogo Competitivo Online, Tiro",
+        sinopse: "Fortnite é um jogo de batalha real onde 100 jogadores competem para ser o último sobrevivente em uma ilha cheia de ação e construções.",
+        linkepic: "https://store.epicgames.com/p/fortnite?lang=pt-BR",
+        caminhoImagem: fortniteImagem
+    },
+
+    {
+        id: 7,
+        nome: "Rocket League",
+        traducao: "ENG, BRA, ESP, JAN",
+        descricao: "Jogo Competitivo Online, Carros",
+        sinopse: "Rocket League mistura futebol e carros em partidas rápidas e competitivas, onde habilidade e trabalho em equipe são essenciais para vencer.",
+        linkepic: "https://store.epicgames.com/p/rocket-league?lang=pt-BR",
+        caminhoImagem: rocketleagueImagem
+    },
+
+    {
+        id: 8,
+        nome: "Overwatch 2",
+        traducao: "ENG, BRA, ESP, JAN",
+        descricao: "Jogo Competitivo Online, Tiro",
+        sinopse: "Overwatch 2 é um jogo de tiro em equipe onde heróis com habilidades únicas se enfrentam em batalhas rápidas e estratégicas.",
+        linksteam: "https://store.steampowered.com/app/2357570/Overwatch/",
+        caminhoImagem: overwatch2Imagem
+    },
+]
+
 
 export default jogos;
