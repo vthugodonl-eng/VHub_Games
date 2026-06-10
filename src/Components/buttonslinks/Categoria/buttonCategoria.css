@@ -6,7 +6,7 @@
     gap: 6px;
 }
 
-.buttonEpic {
+.buttonCategoria {
 
     width: 200px;
 
@@ -36,7 +36,7 @@
     text-decoration: none;
 }
 
-.buttonEpic :hover {
+.buttonCategoria :hover {
     transform: translateY(-4px);
 
     background: linear-gradient(135deg, #7c3aed, #4f46e5);
@@ -46,6 +46,6 @@
         0 0 40px rgba(79, 70, 229, 0.5);
 }
 
-.buttonEpic :active {
+.buttonCategoria :active {
     transform: scale(0.98);
 }

@@ -1,5 +1,5 @@
-import buttonsteam from '../buttonslinks/STEAM/Buttonsteam'
-import buttonepic from '../buttonslinks/EPIC/Buttonepic'
+import Buttonepic from '../buttonslinks/EPIC/Buttonepic';
+import Buttonsteam from '../buttonslinks/STEAM/Buttonsteam';
 import { Link } from 'react-router-dom';
 import './jogos.css'
 

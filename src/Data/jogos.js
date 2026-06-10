@@ -6,6 +6,10 @@ import csgo2Imagem from "../assets/csgo2.jpg"
 import fortniteImagem from '../assets/FORTINITE.jpg'
 import rocketleagueImagem from '../assets/rocketleague.jpg'
 import overwatch2Imagem from '../assets/overwatch2.jpg'
+import warzoneImagem from '../assets/warzone.jpg'
+import dota2Imagem from '../assets/dota2.jpg'
+import forza5Imagem from '../assets/forzahorizon5.jpg'
+import hogwartslegacyImagem from '../assets/hogwatslegacy.jpg'
 
 const jogos =[
     {
@@ -90,6 +94,48 @@ const jogos =[
         linksteam: "https://store.steampowered.com/app/2357570/Overwatch/",
         caminhoImagem: overwatch2Imagem
     },
+
+    {
+        id: 9,
+        nome: "Call of Duty: Warzone",
+        traducao: "ENG, BRA, ESP, JAN",
+        descricao: "Jogo Competitivo Online, Tiro",
+        sinopse: "Call of Duty: Warzone é um battle royale gratuito que coloca dezenas de jogadores em um enorme campo de batalha, onde o objetivo é sobreviver até o fim. Os jogadores podem explorar o mapa, coletar armas, equipamentos e dinheiro, cumprir contratos e enfrentar equipes rivais enquanto uma zona de gás se fecha gradualmente, forçando os confrontos. Com partidas intensas, modos em equipe e atualizações frequentes, Warzone combina ação rápida, estratégia e trabalho em equipe em uma experiência competitiva e dinâmica. 🎮🔥",
+        linksteam: "https://store.steampowered.com/app/1962663/Call_of_Duty_Warzone/",
+        caminhoImagem: warzoneImagem
+    },
+    
+    {
+        id: 10,
+        nome: "DOTA 2",
+        traducao: "ENG, BRA, ESP, JAN",
+        descricao: "Jogo Competitivo Online, RPG",
+        sinopse: "Dota 2 é um jogo de estratégia e ação online no qual duas equipes de cinco jogadores se enfrentam para destruir a base adversária, conhecida como Ancient. Cada jogador controla um herói com habilidades únicas e deve trabalhar em equipe para derrotar inimigos, conquistar objetivos e ganhar vantagem no mapa. Com centenas de heróis, partidas dinâmicas e um cenário competitivo mundial, Dota 2 exige estratégia, coordenação e tomada de decisões rápidas para alcançar a vitória. ⚔️🏆🎮",
+        linksteam: "https://store.steampowered.com/app/570/Dota_2/",
+        caminhoImagem: dota2Imagem
+    },
+
+    {
+        id: 11,
+        nome: "Forza Horizon 5",
+        traducao: "ENG, BRA, ESP, JAN",
+        descricao: "Corrida, Jogo Competitivo Online",
+        sinopse: "Forza Horizon 5 é um jogo de corrida em mundo aberto ambientado no México, oferecendo uma grande variedade de paisagens, desde desertos e florestas até cidades e praias. Os jogadores podem explorar livremente o mapa, participar de corridas, desafios e eventos especiais, além de colecionar e personalizar centenas de veículos. Com gráficos impressionantes, clima dinâmico e modos online, Forza Horizon 5 proporciona uma experiência de corrida divertida e acessível para todos os tipos de jogadores. 🚗🌵🏁",
+        linksteam: "https://store.steampowered.com/app/1551360/Forza_Horizon_5/",
+        caminhoImagem: forza5Imagem
+    },
+    
+    {
+        id: 12,
+        nome: "Hogwarts Legacy",
+        traducao: "ENG, BRA, ESP, JAN",
+        descricao: "RPG, Acao",
+        sinopse: "Hogwarts Legacy é um RPG de ação ambientado no universo de Harry Potter, mas situado no século XIX, muito antes dos eventos dos livros. O jogador assume o papel de um estudante de Hogwarts que possui uma rara habilidade ligada à magia antiga. Durante a jornada, é possível explorar livremente o castelo, aprender feitiços, criar poções, enfrentar criaturas mágicas e desvendar mistérios que ameaçam o mundo bruxo. Com um vasto mundo aberto e diversas escolhas, Hogwarts Legacy oferece uma experiência imersiva para os fãs de magia e aventura. 🧙‍♂️✨🏰",
+        linksteam: "https://store.steampowered.com/app/990080/Hogwarts_Legacy/",
+        linkepic: "https://store.epicgames.com/p/hogwarts-legacy?lang=pt-BR",
+        caminhoImagem: hogwartslegacyImagem
+    }
+
 ]
 
 

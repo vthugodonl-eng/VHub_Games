@@ -6,8 +6,8 @@
     gap: 6px;
 }
 
-a {
-    width: 100%;
+.buttonSteam  {
+    width: 200px;
 
     padding: 14px;
 
@@ -31,9 +31,11 @@ a {
 
     box-shadow:
         0 0 10px rgba(109, 40, 217, 0.5);
+
+    text-decoration: none;
 }
 
-a:hover {
+.buttonSteam:hover {
     transform: translateY(-4px);
 
     background: linear-gradient(135deg, #7c3aed, #4f46e5);
@@ -43,7 +45,7 @@ a:hover {
         0 0 40px rgba(79, 70, 229, 0.5);
 }
 
-a:active {
+.buttonSteam:active {
     transform: scale(0.98);
 }
 

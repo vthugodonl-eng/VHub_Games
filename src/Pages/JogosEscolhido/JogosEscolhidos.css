@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Orbitron:wght@400..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&family=Orbitron:wght@400..900&display=swap');
 
 .container {
 
@@ -16,7 +15,7 @@
 }
 
 .Traducao{
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
 
     font-size: 22px;
 
@@ -31,7 +30,7 @@
 }
 
 .Titulo{
-    font-family: "Black Ops One", system-ui;
+    font-family: "Bebas Neue", system-ui;
 
     font-size: 66px;
 
@@ -46,7 +45,7 @@
 }
 
 .Descricao{
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
 
     font-size: 22px;
 
@@ -60,9 +59,9 @@
 }
 
 .Sinopse{
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
 
-    font-size: 22px;
+    font-size: 20px;
 
     color: #e2ca7b;
 
@@ -71,6 +70,10 @@
     margin: 10px 0;
 
     letter-spacing: 2px;
+
+    padding-left: 30px;
+
+    padding-right: 30px;
 }
 
 .buttonRetorne {
@@ -83,7 +86,7 @@
 
 }
 
-.buttonRetorne button {
+.buttonRetorne a {
 
     padding: 16px;
 
@@ -106,13 +109,33 @@
     margin-bottom: 50px;
 }
 
-.buttonRetorne:hover {
+.buttonRetorne a:hover {
     transform: translateY(-4px);
 
     background: linear-gradient(135deg, #7c3aed, #4f46e5);
 
 }
 
-.buttonRetorne :active {
+.buttonRetorne a:active {
     transform: scale(0.98);
+}
+
+@media (max-width: 768px) {
+
+    .Traducao {
+    font-size: 45px;
+    }
+
+    .Titulo {
+    font-size: larger;
+    }
+
+    .Descricao{
+        font-size: 45px;
+    }
+
+    .Sinopse{
+        font-size: 45px;
+    }
+
 }
