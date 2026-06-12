@@ -76,17 +76,7 @@
     padding-right: 30px;
 }
 
-.buttonRetorne {
-
-    display: inline-block;
-
-    text-decoration: none;
-
-    margin-bottom: 20px;
-
-}
-
-.buttonRetorne a {
+.buttonRetorne{
 
     padding: 16px;
 
@@ -107,16 +97,22 @@
     letter-spacing: 1px;
 
     margin-bottom: 50px;
+
+    display: inline-block;
+
+    text-decoration: none;
+
+    margin-bottom: 20px;
 }
 
-.buttonRetorne a:hover {
+.buttonRetorne:hover {
     transform: translateY(-4px);
 
     background: linear-gradient(135deg, #7c3aed, #4f46e5);
 
 }
 
-.buttonRetorne a:active {
+.buttonRetorne:active {
     transform: scale(0.98);
 }
 

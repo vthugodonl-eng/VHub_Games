@@ -1,42 +1,46 @@
-.containerButton{
+.categorias {
+
     display: flex;
+
     justify-content: center;
-    flex-direction: column;
+
     align-items: center;
-    gap: 6px;
+
+    gap: 10px;
+
+    flex-wrap: wrap;
+
+    margin: 30px 0;
+
 }
 
 .buttonCategoria {
 
-    width: 200px;
-
-    padding: 14px;
-
-    border: none;
-
-    border-radius: 14px;
-
-    background: linear-gradient(135deg, #6d28d9, #4338ca);
+    text-decoration: none;
 
     color: white;
 
-    font-size: 17px;
+    padding: 12px 20px;
 
-    font-weight: bold;
+    border-radius: 12px;
+
+    background: linear-gradient(135deg, #6d28d9, #4338ca);
+
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: 600;
 
     cursor: pointer;
 
     transition: all 0.3s ease;
 
-    letter-spacing: 1px;
-
     box-shadow:
         0 0 10px rgba(109, 40, 217, 0.5);
 
-    text-decoration: none;
 }
 
-.buttonCategoria :hover {
+.buttonCategoria:hover {
+
     transform: translateY(-4px);
 
     background: linear-gradient(135deg, #7c3aed, #4f46e5);
@@ -44,8 +48,11 @@
     box-shadow:
         0 0 20px rgba(124, 58, 237, 0.8),
         0 0 40px rgba(79, 70, 229, 0.5);
+
 }
 
-.buttonCategoria :active {
+.buttonCategoria:active {
+
     transform: scale(0.98);
+
 }

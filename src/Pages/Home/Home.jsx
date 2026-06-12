@@ -2,10 +2,11 @@ import { useEffect, useState } from 'react'
 import jogos from "../../Data/jogos"
 import CardJogos from "../../Components/jogos/jogos"
 import './Home.css'
-import buttonCategoria from '../../Components/buttonslinks/Categoria/buttonCategoria'
+import ButtonCategoria from '../../Components/buttonslinks/Categoria/ButtonCategoria'
 import { Link } from 'react-router-dom'
 
 function Home(){
+    /*Home*/
     const[listadejogos, setlistadejogos] = useState(jogos)
 
     const[qtdJogos, setqtdJogos] = useState(0)
@@ -15,6 +16,15 @@ function Home(){
     setqtdJogos(listadejogos.length)
     },[listadejogos])
 
+    /*Categorias*/
+    
+    const [categoriaSelecionada, setcategoriaSelecionada] = useState("Todos");
+
+    const categorias = [...new Set(jogos.flatMap(categorias => categorias.categoria))];
+
+    console.log(categorias)   ;
+    const jogosfiltrados = jogos.filter( categoria => categoria.categoria.includes(categoriaSelecionada));
+
     return(
     
         <>
@@ -22,15 +32,9 @@ function Home(){
         
             <h2 className="contador-jogos"> 🎮 Jogos disponíveis: {qtdJogos}</h2>
             
-            <section id='cat'>
-                <Link className='Linkcat' to={`/VHub_Games/Categoria`}>
-                    <div className='Categoria'>
-                        <a>Categorias</a>
-                    </div>
-                </Link>  
-            </section>         
+            <ButtonCategoria categorias={categorias}/>
             
-            <h4>Catalogo de jogos</h4>
+            <h2 className='Titulocatalogo'>Catalogo de jogos</h2>
 
 
             <section id='center'>

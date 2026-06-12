@@ -23,11 +23,9 @@ function Jogos(){
             <h1 className="Titulo">{jogo.nome}</h1>
             
             <Link className="buttonRetorne"
-                to={"/VHub_Games/"}>
-    
-                        <a>Retorne ao Lobby</a>
-                    
+                to={"/VHub_Games/"}>Retorne ao Lobby
             </Link>
+            
             <div className="container">
                 <img src={jogo.caminhoImagem} />
 

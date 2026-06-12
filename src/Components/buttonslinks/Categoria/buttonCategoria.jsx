@@ -1,11 +1,27 @@
-import './buttonCategoria.css'
+import { Link } from "react-router-dom";
+import "./buttonCategoria.css";
 
-function buttonCategoria({categoria}){
+
+function ButtonCategoria({categorias}){
+
     return(
-        <Link className="buttonCategoria">
-            to=
-        </Link>
+            <div className="categorias">
+                {categorias.map(categoria => (
+
+                <Link
+                    key={categoria}
+                    className="buttonCategoria"
+                    to={`/VHub_Games/categoria/${categoria}`}
+                >
+                    {categoria}
+                </Link>
+
+    
+            ))}
+
+            </div>
     )
+
 }
 
-export default buttonCategoria;
+export default ButtonCategoria;
