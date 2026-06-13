@@ -9,8 +9,9 @@
     align-items: center;
     
     img {
-    width: 300px;
+    width: 250px;
     height: auto;
+    margin-top: 30px;
     }
 }
 
@@ -76,45 +77,6 @@
     padding-right: 30px;
 }
 
-.buttonRetorne{
-
-    padding: 16px;
-
-    border-radius: 14px;
-
-    background: linear-gradient(135deg, #6d28d9, #4338ca);
-
-    color: white;
-
-    font-size: 14px;
-
-    font-weight: bold;
-
-    cursor: pointer;
-
-    transition: all 0.3s ease;
-
-    letter-spacing: 1px;
-
-    margin-bottom: 50px;
-
-    display: inline-block;
-
-    text-decoration: none;
-
-    margin-bottom: 20px;
-}
-
-.buttonRetorne:hover {
-    transform: translateY(-4px);
-
-    background: linear-gradient(135deg, #7c3aed, #4f46e5);
-
-}
-
-.buttonRetorne:active {
-    transform: scale(0.98);
-}
 
 @media (max-width: 768px) {
 

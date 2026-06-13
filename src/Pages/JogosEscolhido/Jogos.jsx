@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import jogos from '../../Data/jogos';
 import Buttonepic from "../../Components/buttonslinks/EPIC/Buttonepic";
 import Buttonsteam from "../../Components/buttonslinks/STEAM/Buttonsteam";
+import Buttonretorne from '../../Components/buttonslinks/Retorne/ButtonRetorne'
 import './JogosEscolhidos.css'
 
 
@@ -13,7 +14,7 @@ function Jogos(){
 
     
     if(!jogo){
-        return <h1>Jogo nao encontrado</h1>
+        return <h1>Jogo não encontrado</h1>
 
     }
     
@@ -22,20 +23,22 @@ function Jogos(){
         <div className="JogosEscolhidos">
             <h1 className="Titulo">{jogo.nome}</h1>
             
-            <Link className="buttonRetorne"
-                to={"/VHub_Games/"}>Retorne ao Lobby
-            </Link>
+            <Buttonretorne />
             
             <div className="container">
                 <img src={jogo.caminhoImagem} />
 
             </div>
             
-            <p className="Traducao">Traducao:{jogo.traducao}</p>
             
-            <p className="Descricao">Descricao:{jogo.descricao}</p>
+
+            <h2>Informacoes</h2>
+
+            <h3 className="Traducao">Traducão:{jogo.traducao}</h3>
             
-            <p className="Sinopse">Sinopse:{jogo.sinopse}</p>
+            <h4 className="Descricao">Descricão:{jogo.descricao}</h4>
+            
+            <h5 className="Sinopse">Sinopse:{jogo.sinopse}</h5>
             
             <div className="containerButton">
             
@@ -47,9 +50,9 @@ function Jogos(){
                 <Buttonepic linkepic={jogo.linkepic}/>
             )}
                 
-                </div>
-            
             </div>
+            
+        </div>
     </>
     )
 }

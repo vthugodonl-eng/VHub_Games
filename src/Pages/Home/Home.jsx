@@ -21,35 +21,36 @@ function Home(){
     const [categoriaSelecionada, setcategoriaSelecionada] = useState("Todos");
 
     const categorias = [...new Set(jogos.flatMap(categorias => categorias.categoria))];
-
-    console.log(categorias)   ;
+    
     const jogosfiltrados = jogos.filter( categoria => categoria.categoria.includes(categoriaSelecionada));
 
     return(
     
         <>
-            <h1 className="logo">VHUB GAMES</h1>
-        
-            <h2 className="contador-jogos"> 🎮 Jogos disponíveis: {qtdJogos}</h2>
+            <main>
+                <h1 className="logo">VHUB GAMES</h1>
             
-            <ButtonCategoria categorias={categorias}/>
-            
-            <h2 className='Titulocatalogo'>Catalogo de jogos</h2>
+                <h2 className="contador-jogos"> 🎮 Jogos disponíveis: {qtdJogos}</h2>
+                
+                <ButtonCategoria categorias={categorias}/>
+                
+                <h2 className='Titulocatalogo'>Catalogo de jogos</h2>
 
 
-            <section id='center'>
-                    
-                    {
-                    listadejogos.map((jogos, index) => (
-                        <CardJogos
-                            key={index}
-                            id={jogos.id}
-                            nome={jogos.nome}
-                            caminhoImagem={jogos.caminhoImagem}
-                        />
-                    ))
-                    }
-            </section>
+                <section id='center'>
+                        
+                        {
+                        listadejogos.map((jogos, index) => (
+                            <CardJogos
+                                key={index}
+                                id={jogos.id}
+                                nome={jogos.nome}
+                                caminhoImagem={jogos.caminhoImagem}
+                            />
+                        ))
+                        }
+                </section>
+        </main>
         </>
 
     )

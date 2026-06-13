@@ -1,23 +1,23 @@
-import reddeadredemption2Imagem from "../assets/reddead2.jpg"
-import gowrgImagem from "../assets/gowrg.jpg"
-import gtavImagem from "../assets/gtav.jpg"
-import eldenringImagem from "../assets/eldenring.jpg"
-import csgo2Imagem from "../assets/csgo2.jpg"
-import fortniteImagem from '../assets/FORTINITE.jpg'
-import rocketleagueImagem from '../assets/rocketleague.jpg'
-import overwatch2Imagem from '../assets/overwatch2.jpg'
-import warzoneImagem from '../assets/warzone.jpg'
-import dota2Imagem from '../assets/dota2.jpg'
-import forza5Imagem from '../assets/forzahorizon5.jpg'
-import hogwartslegacyImagem from '../assets/hogwatslegacy.jpg'
+import reddeadredemption2Imagem from "../assets/reddead2.webp"
+import gowrgImagem from "../assets/gowrg.webp"
+import gtavImagem from "../assets/gtav.webp"
+import eldenringImagem from "../assets/eldenring.webp"
+import csgo2Imagem from "../assets/csgo2.webp"
+import fortniteImagem from '../assets/FORTINITE.webp'
+import rocketleagueImagem from '../assets/rocketleague.webp'
+import overwatch2Imagem from '../assets/overwatch2.webp'
+import warzoneImagem from '../assets/warzone.webp'
+import dota2Imagem from '../assets/dota2.webp'
+import forza5Imagem from '../assets/forzahorizon5.webp'
+import hogwartslegacyImagem from '../assets/hogwatslegacy.webp'
 
 const jogos =[
     {
     id: 1,
     nome: "RED DEAD REDEMPTION 2",
     traducao: "BRA, ENG, ESP",
-    descricao: "Jogo Mundo Aberto, Acao, Historia",
-    categoria: ["Jogo Mundo Aberto", "Acao", "Historia"],
+    descricao: "Jogo Mundo Aberto, Acão, Historia",
+    categoria: ["Jogo Mundo Aberto", "Acão", "Historia"],
     sinopse: "Red Dead Redemption 2 é um jogo de ação e aventura que se passa em 1899, seguindo a história de Arthur Morgan, um membro da gangue Van der Linde, enquanto eles lutam pela sobrevivência em um mundo em declínio.",    
     linksteam: "https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/",
     linkepic: "https://store.epicgames.com/p/red-dead-redemption-2",
@@ -28,8 +28,8 @@ const jogos =[
         id: 2,
         nome: "GOD OF WAR: RAGNARöK",
         traducao: "BRA, ENG",
-        descricao: "Jogo de Acao, Historia",
-        categoria: ["Acao", "Historia"],
+        descricao: "Acão, Historia",
+        categoria: ["Acão", "Historia"],
         sinopse: "God of War Ragnarök acompanha Kratos e Atreus alguns anos após os acontecimentos de God of War (2018). O Fimbulwinter — o inverno que antecede o Ragnarök — já começou, e os dois precisam viajar pelos Nove Reinos em busca de respostas enquanto enfrentam criaturas míticas, deuses nórdicos e a ameaça do fim do mundo.",
         linksteam: "https://store.steampowered.com/app/2322010/God_of_War_Ragnark/",
         linkepic: "https://store.epicgames.com/p/god-of-war-ragnarok-3ca641",
@@ -40,8 +40,8 @@ const jogos =[
         id: 3,
         nome: "GTA V",
         traducao: "ENG, ESP",
-        descricao: "Jogo Mundo Aberto, Acao",
-        categoria: ["Jogo Mundo Aberto", "Acao"],
+        descricao: "Jogo Mundo Aberto, Acão",
+        categoria: ["Jogo Mundo Aberto", "Acão"],
         sinopse: "Grand Theft Auto V acompanha Michael, Franklin e Trevor, três criminosos que unem forças para realizar grandes assaltos em Los Santos enquanto enfrentam gangues, corrupção e o caos do mundo do crime.",
         linksteam: "https://store.steampowered.com/app/3240220/Grand_Theft_Auto_V_Enhanced/",
         linkepic: "https://store.epicgames.com/p/grand-theft-auto-v",
@@ -140,8 +140,8 @@ const jogos =[
         id: 12,
         nome: "Hogwarts Legacy",
         traducao: "ENG, BRA, ESP, JAN",
-        descricao: "RPG, Acao, Historia",
-        categoria: ["RPG", "Acao", "Historia"],
+        descricao: "RPG, Acão, Historia",
+        categoria: ["RPG", "Acão", "Historia"],
         sinopse: "Hogwarts Legacy é um RPG de ação ambientado no universo de Harry Potter, mas situado no século XIX, muito antes dos eventos dos livros. O jogador assume o papel de um estudante de Hogwarts que possui uma rara habilidade ligada à magia antiga. Durante a jornada, é possível explorar livremente o castelo, aprender feitiços, criar poções, enfrentar criaturas mágicas e desvendar mistérios que ameaçam o mundo bruxo. Com um vasto mundo aberto e diversas escolhas, Hogwarts Legacy oferece uma experiência imersiva para os fãs de magia e aventura. 🧙‍♂️✨🏰",
         linksteam: "https://store.steampowered.com/app/990080/Hogwarts_Legacy/",
         linkepic: "https://store.epicgames.com/p/hogwarts-legacy?lang=pt-BR",

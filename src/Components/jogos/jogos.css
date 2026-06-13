@@ -1,27 +1,27 @@
 /* CARD */
 
 .CardJogos {
+    width: 150px;
 
-    height: 120px;
-
-    width: 120px;
-
-    background: rgba(20, 20, 20, 0.75);
-
-    backdrop-filter: blur(10px);
-
-    border-radius: 20px;
-
-    transition: 0.3s;
-
-    border: 1px solid rgba(255,255,255,0.1);
-
-    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    height: auto;
 
     display: flex;
 
     flex-direction: column;
 
+    align-items: center;
+
+    background: rgba(20, 20, 20, 0.7);
+
+    backdrop-filter: blur(10px);
+
+    border-radius: 20px;
+
+    padding: 20px;
+
+    border: 1px solid rgba(255,255,255,0.1);
+
+    margin-bottom: 12px;
 }
 
 /* HOVER DO CARD */
@@ -37,17 +37,13 @@
 /* IMAGEM */
 
 .CardJogos img {
+    width: 150px;
 
-    width: 120px;
+    height: auto;
 
-    height: 120px;
+    object-fit: cover;
 
-    display: block;
-
-    margin: 0 auto;
-
-    border-radius: 20px;
-
+    border-radius: 15px;
 }
 
 /* TITULO DO JOGO */
@@ -58,7 +54,7 @@
 
     display: flex;
 
-    font-size: 10px;
+    font-size: 20px;
 
     align-items: center;
 
@@ -67,6 +63,8 @@
     letter-spacing: 2px;
 
     padding: 10px;
+
+    margin-top: 30px;
 
 }
 
