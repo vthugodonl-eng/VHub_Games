@@ -9,7 +9,7 @@ function Jogoscard({nome, caminhoImagem, id}){
                 to={`/VHub_Games/${id}`}>
                     <div
                         className='CardJogos'>
-                            <img src={caminhoImagem} alt={`Capa do jogo ${nome}`}/>
+                            <img src={caminhoImagem} alt={`Ir para a pagina do jogo ${nome}`}/>
                             
                             <h2>{nome}</h2>            
                     </div>
