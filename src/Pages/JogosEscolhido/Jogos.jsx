@@ -32,7 +32,7 @@ function Jogos(){
             
             
 
-            <h2>Informacoes</h2>
+            <h2>Informações</h2>
 
             <h3 className="Traducao">Traducão:{jogo.traducao}</h3>
             
