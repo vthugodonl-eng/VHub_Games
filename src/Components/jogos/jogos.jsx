@@ -4,9 +4,17 @@ import { Link } from 'react-router-dom';
 import './jogos.css'
 
 function Jogoscard({nome, caminhoImagem, id}){
+    
+    const registrarClick = (destino) => {
+            console.log('Evento de clique enviado, destino', destino)
+            window.dataLayer.push({
+                event: 'click',
+                destino: destino,
+            })
+    }
     return(
         <Link className="CardLink" 
-                to={`/VHub_Games/${id}`}>
+                to={`/VHub_Games/${id}`} onClick={() => registrarClick(nome)}>
                     <div
                         className='CardJogos'>
                             <img src={caminhoImagem} alt={`Ir para a pagina do jogo ${nome}`}/>

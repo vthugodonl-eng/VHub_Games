@@ -3,10 +3,12 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home/Home';
 import Jogos from './Pages/JogosEscolhido/Jogos';
 import Categorias from './Pages/Categorias/Categorias';
+import AnalyticsTracker from './Components/AnalyticsTracker/AnalyticsTracker';
 
 function App() {
   return (
     <BrowserRouter>
+    <AnalyticsTracker/>
       <Routes>
 
         <Route
